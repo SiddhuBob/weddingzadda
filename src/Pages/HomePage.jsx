@@ -1,4 +1,4 @@
-import React, { useEffect, useState,useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import "../Css/HomePage.css";
 import Authentic from "../Component/Home/Authentic";
 import HomeVenue from "../Component/Home/HomeVenue";
@@ -11,6 +11,7 @@ import Footer from "../Component/FooterCom/Footer";
 import axios from "axios";
 import Typewriter from 'typewriter-effect/dist/core';
 import NewHomeCategory from "../Component/NewHome/NewHomeCategory";
+import LocationVendor from "../Component/NewHome/LocationVendor";
 const HomePage = () => {
 
     const [categoryList, setCategoryList] = useState([]);
@@ -58,22 +59,22 @@ const HomePage = () => {
 
     const typewriterRef = useRef(null);
 
-  useEffect(() => {
-    const typewriter = new Typewriter(typewriterRef.current, {
-      loop: true,
-    });
+    useEffect(() => {
+        const typewriter = new Typewriter(typewriterRef.current, {
+            loop: true,
+        });
 
-    typewriter
-      .typeString('Web Developer')
-      .pauseFor(2500)
-      .deleteAll()
-      .typeString('Web Designer')
-      .pauseFor(2500)
-      .deleteAll()
-      .typeString('<strong>FrontEnd Developer</strong>')
-      .pauseFor(2500)
-      .start();
-  }, []);
+        typewriter
+            .typeString('Web Developer')
+            .pauseFor(2500)
+            .deleteAll()
+            .typeString('Web Designer')
+            .pauseFor(2500)
+            .deleteAll()
+            .typeString('<strong>FrontEnd Developer</strong>')
+            .pauseFor(2500)
+            .start();
+    }, []);
 
 
     return (
@@ -140,7 +141,8 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
-<NewHomeCategory/>
+            <NewHomeCategory />
+            <LocationVendor />
             {/* <Authentic /> */}
             <HomeSearches />
             <HomeVenue />

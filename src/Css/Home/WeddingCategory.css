@@ -1,0 +1,97 @@
+.home-wedding-category-section{
+    padding: 5vh 0px;
+}
+
+.home-wedding-section-category-head-main-con {}
+
+.home-wedding-section-category-head-main-con h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(---PrimaryColor);
+    font-family: var(---Font01);
+    /* margin-bottom: 20px; */
+    padding-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.home-wedding-section-category-head-main-con h3::before {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    width: 70%;
+    height: 1px;
+    content: "";
+    background: #e7e7e7;
+}
+
+.home-wedding-section-category-head-main-con h3::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 120%;
+    height: 1px;
+    content: "";
+    background: #e7e7e7;
+    left: -10%;
+}
+
+.home-wedding-section-category-details-main-con {
+    /* border: 1px solid black; */
+    margin: 40px 0px;
+}
+
+.home-wedding-section-category-details-first-main-con {
+    /* border: 1px solid blue; */
+}
+
+.home-wedding-section-category-details-first-con-card {
+    /* border: 1px solid red; */
+    margin: 0px 0px 50px 0px;
+}
+
+.home-wedding-section-category-details-first-image-con {
+    /* border: 1px solid green; */
+        width: 80%;
+}
+
+.home-wedding-section-category-details-first-image-con img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.home-wedding-section-category-details-first-text {
+    margin: 10px 0px 0px 0px;
+}
+
+.home-wedding-section-category-details-first-text h3 {
+    font-family: var(---Font01);
+    font-size: 25px;
+    margin: 0px;
+    color: var(---PrimaryColor);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.home-wedding-section-category-details-first-card {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-wedding-section-category-details-first-image-big{
+    height: 55vh;
+}
+
+.home-wedding-section-category-details-first-image-small{
+    height: 32vh;
+}
+
+@media(max-width:768px){
+    .home-wedding-section-category-head-main-con h3 {
+font-size: 30px;
+    }
+}

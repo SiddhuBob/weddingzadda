@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+:root {
+  ---PrimaryColor: #967f45;
+  ---SecondryColor: #a28f5f;
+  ---Font01: "Cormorant", serif;
+  ---Font02: "Josefin Sans", serif;
+  ---paraColor: #8c857a;
+  --newHead: "Playfair Display", serif;
+
+  --bs-secondary-color: rgba(255, 255, 255, 0.75);
+}
+
+
+.head-common-image-con {
+  max-width: 200px;
+  position: relative;
+  margin: 0 auto -35px;
+  left: -6px;
+}
+
+
+.head-common-image-con img {
+  height: 40px;
+  width: 40px;
+}
+
+.head-font {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(---PrimaryColor);
+  font-family: var(---Font01);
+  display: inline-block;
+}
+
+
+@media(max-width:768px){
+  .head-common-image-con img {
+    height: 30px;
+    width: 30px;
+}
+.head-common-image-con {
+  max-width: 200px;
+  position: relative;
+  margin: 0 auto -30px;
+  left: -6px;
+}
+}
+
+@media (min-width: 768px) {
+  .container{
+      max-width: 1000px;
+  }
+}
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1320px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1240px;
+  }
+}

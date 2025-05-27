@@ -1,0 +1,303 @@
+/* search bar  */
+
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(---PrimaryColor);
+    height: 40px;
+    min-width: 40px;
+    border-radius: 50px;
+}
+
+.search-btn {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(---PrimaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.4s;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.search-box:hover>.search-txt {
+    width: 240px;
+    padding: 0 10px;
+}
+
+.search-box:hover>.search-btn {
+    background: var(---PrimaryColor);
+}
+
+/* end  */
+
+
+.venues-page-section-1 {
+    /* border: 1px solid red; */
+}
+
+.venues-page-section-1search-and-name {
+    /* border: 1px solid blue; */
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0px;
+        padding: 20px 0px;
+        border-bottom: 1px solid gray;
+}
+
+.venues-section-1-page--name {
+    /* border: 1px solid blanchedalmond; */
+    text-align: left;
+}
+
+.venues-section-1-page--name h3 {
+    font-family: var(--newHead);
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.venues-section-1-page--name h4 {
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+.venues-section-1-page-search {
+    /* border: 1px solid blueviolet; */
+    position: relative;
+    width: 500px;
+}
+
+.search-txt::placeholder {
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+
+.venues-section-1-location-main-con {
+    /* border: 1px solid black; */
+}
+
+.venues-section-1-location-con {
+    /* border: 1px solid blue; */
+    display: flex;
+
+}
+
+.venues-section-1-location-card-con {
+    /* border: 1px solid red; */
+    /* min-width: 100px; */
+    /* min-height: 150px; */
+    margin: 0px 20px;
+}
+
+.venues-section-1-location-card-con h3 {
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.venues-section-1-location-card-image-con {
+    /* border: 1px solid green; */
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.venues-section-1-location-card-image-con img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+
+/* section-2  */
+
+.venues-section-2-card-main-con {
+    /* border: 1px solid blue; */
+    padding: 50px 0px;
+}
+
+.venues-section-2-main-card-con {
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+
+.venues-section-2-main-card-con a{
+text-decoration: none;
+color: black;
+}
+
+.venues-section-2-main-image-con {
+    border: 1px solid black;
+    position: relative;
+}
+
+.venues-section-2-image-con {
+    /* border: 1px solid green; */
+    height: 40vh;
+}
+
+.venues-section-2-image-con img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.venues-section-2-image-overlay-rating-main-con {
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.venues-section-2-image-overlay-rating-main-con svg {
+    margin: 0px 5px;
+    color: #fdd663;
+}
+
+.venues-section-2-image-overlay-rating-main-con h3 {
+    margin: 0px;
+    font-size: 16px;
+    color: white;
+}
+
+.venues-section-2-image-overlay-info-main-con {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.venues-section-2-image-overlay-info-main-con svg {
+    font-size: 18px;
+    color: white;
+}
+
+.venues-section-2-main-card-details-con {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.venues-section-2-main-card-details-con h4 {
+    font-family: var(---Font02);
+    margin: 10px 0px;
+    flex: 1 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.venues-section-2-card-location-and-category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0px;
+}
+
+.venues-section-2-card-location {
+    display: flex;
+    align-items: center;
+    flex: 1 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 10px;
+}
+
+.venues-section-2-card-location p {
+    flex: 1 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0px 10px 0px 0px;
+    font-size: 13px;
+    color: var(---PrimaryColor);
+}
+
+.venues-section-2-card-location svg {
+    font-size: 22px;
+    color: var(---SecondryColor);
+}
+
+.venues-section-2-card-location h5 {
+    width: 230px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: normal;
+    margin: 0px 0px 0px 5px;
+    font-size: 13px;
+    color: var(---PrimaryColor);
+}
+
+.venues-section-2-card-food-details-main-con {
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+}
+
+.venues-section-2-card-food-details-con:first-child {
+    margin-right: 20px;
+}
+
+.venues-section-2-card-food-details-con {}
+
+.venues-section-2-card-food-details-con h6 {
+    font-size: 12px;
+    color: rgb(144, 144, 144);
+    line-height: 16px;
+    margin: 0px;
+}
+
+.venues-section-2-card-food-details-con p {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(74, 74, 74);
+    margin: 0px;
+}
+
+.venues-section-2-card-food-details-con p span{
+    color: rgb(74, 74, 74);
+    font-size: 12px;
+}
+
+
+@media(max-width:430px){
+    .venues-section-2-image-con {
+        /* border: 1px solid green; */
+        height: 30vh;
+    }
+}

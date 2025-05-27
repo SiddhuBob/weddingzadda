@@ -1,0 +1,654 @@
+
+/* banner section  */
+
+.Details-page-main-section-1 {
+    /* border: 1px solid blue; */
+    height: 60vh;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url("../Images/banner/other_banner_05.jpg");
+    background-size: cover;
+}
+
+.Details-page-section-1-banner {
+    border: 1px solid green;
+    height: 100%;
+    position: relative;
+}
+
+.Details-page-section-1-banner h1{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    color: white;
+    font-family: var(---Font02);
+    text-transform: capitalize;
+    /* font-size: 26px; */
+}
+
+.venues-service-details-page-section {
+    /* border: 1px solid red; */
+}
+
+.venues-service-details-page-section-main-con {
+    /* border: 1px solid blue; */
+}
+
+.venues-service-details-page-section-left-side-con {
+    /* border: 1px solid green; */
+    margin: 40px 0px;
+}
+
+.venues-service-details-page-image-con {
+    /* border: 1px solid hotpink; */
+    height: 400px;
+    box-shadow: 0 0 5px grey;
+    margin: 10px 0px;
+    border-radius: 7px;
+}
+
+.venues-service-details-page-image-con img {
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+.venues-service-details-div-2-details-con-main {
+    /* border: 1px solid blue; */
+    box-shadow: 0 0 5px grey;
+    border-radius: 7px;
+    margin: 30px 0px;
+}
+
+.venues-service-details-div-2-name-review {
+    /* border: 1px solid red; */
+    padding: 15px 20px;
+    text-align: left;
+}
+
+.venues-service-details-div-2-name-review h3 {
+    margin: 0px 0px 10px 0px;
+    font-family: var(---Font01);
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.venues-service-details-div-2-name-location-main-con {}
+
+.venues-service-details-div-2-name-location-main-con h4 {
+    font-size: 14px;
+    color: var(---SecondryColor);
+}
+
+.venues-service-details-div-2-name-location-main-con h4 span {
+    text-transform: capitalize;
+}
+
+.venues-service-details-div-2-name-location {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 5px 0px
+}
+
+.venues-service-details-div-2-name-location svg {
+    font-size: 18px;
+    margin: 0px 7px 0px 0px;
+}
+
+.venues-service-details-div-2-name-location p {
+    margin: 0px;
+    font-size: 13px;
+    color: gray;
+}
+
+.venues-service-details-div-2-name-location h4 {}
+
+.venues-service-details-div-2-name-location h4 span {}
+
+.venues-service-details-div-2-call-con {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.venues-service-details-div-2-call-con svg {
+    font-size: 18px;
+    margin: 0px 7px 0px 0px;
+    color: var(---PrimaryColor);
+}
+
+.venues-service-details-div-2-call-con h5 {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.venues-service-details-div-2-points-4-con {
+    /* border: 1px solid blue; */
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.venues-service-details-page-4-points-name-icons {
+    padding: 8px 15px;
+}
+
+.venues-service-details-page-4-points-name-icons svg {
+    font-size: 19px;
+}
+
+.venues-service-details-page-4-points-name-icons span {
+    font-size: 16px;
+    margin: 0px 0px 0px 7px;
+}
+
+.venues-service-details-col:not(:last-child):nth-child(-n+3) {
+    border-right: 1px solid black !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+
+/* tabs  */
+
+.venues-service-page-tabs-main-con {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.venues-service-page-tabs-con {}
+
+.venues-service-page-tabs-con h6 {
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 0px;
+    text-transform: capitalize;
+    background-color: var(---PrimaryColor);
+    color: white;
+    box-shadow: 0 0 2px gray;
+}
+
+
+/* area  */
+
+.venues-details-page-section-3-area {
+    /* border: 1px solid blue; */
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+
+.venues-details-page-section-3-area-head-con {
+    /* border: 1px solid red; */
+}
+
+.venues-details-page-section-3-area-head-con h3 {
+    margin: 0px 0px 10px 0px;
+    font-family: var(---Font01);
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.venues-details-page-section-3-area-details-con {
+    /* border: 1px solid blue; */
+    margin: 20px 0px;
+}
+
+.venues-details-page-section-3-area-card-main-con {
+    margin: 0px 0px 20px 0px;
+}
+
+.venues-details-page-section-3-area-image-con {
+    border: 1px solid red;
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+
+.venues-details-page-section-3-area-image-con img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.venues-details-page-section-3-area-info-con {
+    text-align: left;
+    margin: 15px 0px;
+}
+
+
+.venues-details-page-section-3-area-info-con h4 {
+    margin: 0px;
+    font-family: var(---Font02);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.venues-details-page-section-3-area-info-con p {
+    margin: 0px;
+    font-family: var(---Font02);
+    font-weight: 400;
+}
+
+/* section 4 menu */
+
+.venues-details-page-section-4-menu {
+    /* border: 1px solid red; */
+}
+
+.venues-deteils-page-section-4-head-con {
+    /* border: 1px solid blue; */
+}
+
+.venues-deteils-page-section-4-head-con h3 {
+    margin: 0px 0px 10px 0px;
+    font-family: var(---Font01);
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+}
+
+
+.venues-details-page-section-4-menu-pdf-main-con {
+    border: 1px solid green;
+    height: 180px;
+    width: 180px;
+}
+
+
+/* gallery  */
+
+.venues-details-page-section-5-gallery {
+    /* border: 1px solid black; */
+    margin: 30px 0px;
+    box-shadow: 0 0 5px gray;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+.venues-details-page-section-5-gallery-head {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 10px 0px 30px 0px;
+    border-bottom: 1px solid gray;
+}
+
+.venues-details-page-section-5-gallery-tabs-con {
+    /* border: 1px solid green; */
+    margin: 0px 20px 0px 0px;
+}
+
+.venues-details-page-section-5-gallery-tabs-con h3 {
+    font-family: var(---Font02);
+    font-size: 20px;
+    margin: 0px;
+}
+
+.venues-details-page-section-5-gallery-tabs-con h3 span {}
+
+
+
+.venues-details-page-section-5-gallery-tabs-details-con {
+    margin: 20px 0px;
+}
+
+.venues-details-page-section-5-tabs-main-card {
+    /* border: 1px solid blue; */
+    height: 200px;
+    margin: 0px 0px 25px 0px;
+    border-radius: 10px;
+}
+
+.venues-details-page-section-5-tabs-main-card img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.venues-details-page-section-5-tabs-more-btn {}
+
+.venues-details-page-section-5-tabs-more-btn button {
+    border: none;
+    padding: 6px 28px;
+    border-radius: 50px;
+    background: var(---PrimaryColor);
+    color: white;
+}
+
+
+
+/* details info  */
+
+.venues-details-page-section-8-about-info {
+    border: 1px solid #dcdcdc;
+    margin: 30px 0px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.venues-details-page-section-8-about-head-main-con {
+    /* border: 1px solid red; */
+    margin: 20px 0px;
+}
+
+.venues-details-page-section-8-about-head-main-con h3 {
+    font-family: var(---Font01);
+    text-transform: capitalize;
+    color: var(---PrimaryColor);
+}
+
+.venues-details-page-section-8-about-head-main-con h3 span {
+    color: var(---PrimaryColor);
+}
+
+.venues-details-page-section-8-about-details-info-con {}
+
+.venues-details-page-section-8-about-details-info-con p {
+    font-size: 15px;
+    color: gray;
+}
+
+.venues-details-page-section-8-about-details-info-con h3 {
+    font-family: var(---Font02);
+    font-size: 18px;
+    margin: 0px;
+    color: var(---PrimaryColor);
+    font-weight: 700;
+}
+
+.venues-details-page-section-8-about-details-info-con ul {}
+
+.venues-details-page-section-8-about-details-info-con ul li {
+    font-size: 15px;
+    margin: 0px 0px 7px 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* sdnlsdnns */
+
+.venues-details-page-section-9-info-points {
+    margin: 20px 0px;
+    padding: 20px 0px;
+    border-top: 1px solid gray;
+}
+
+
+.venues-details-page-section-9-info-points-con {}
+
+.venues-details-page-section-9-info-points-con h3 {
+    font-family: var(---Font02);
+    font-size: 17px;
+    margin: 0px;
+    color: var(---SecondryColor);
+    text-transform: capitalize;
+}
+
+.venues-details-page-section-9-info-points-con p {
+    font-size: 13px;
+    color: var(---paraColor);
+}
+
+
+
+
+/* right side con */
+
+.venues-details-page-section-right-side-main-con {
+    /* border: 1px solid green; */
+    margin: 40px 0px;
+}
+
+.venues-details-page-section-right-side-price-main-con {
+    /* border: 1px solid blue; */
+    margin: 20px;
+    box-shadow: 0 0 3px gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* padding: 10px 20px; */
+
+}
+
+.venues-details-page-section-right-side-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.venues-details-page-section-right-side-head {}
+
+.venues-details-page-section-right-side-head h3 {
+    font-size: 16px;
+    margin: 0px;
+    font-family: var(---Font02);
+    color: var(---PrimaryColor);
+}
+
+.venues-details-page-section-right-side-head-dropdown {}
+
+.venues-details-page-section-right-side-head-dropdown h4 {
+    font-size: 18px;
+    margin: 0px;
+    font-family: var(---Font02);
+}
+
+.venues-details-page-section-right-side-head-dropdown h4 span {
+    color: var(---PrimaryColor);
+
+}
+
+.venues-details-page-section-right-side-drop-details-main-con {
+    /* border: 1px solid red; */
+    padding: 10px 20px;
+}
+
+.venues-details-page-section-right-side-drop-details-room {
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    text-align: left;
+}
+
+.venues-details-page-section-right-side-drop-details-room-con {}
+
+.venues-details-page-section-right-side-drop-details-room-con h5 {
+    font-size: 16px;
+    font-family: var(---Font02);
+
+}
+
+.venues-details-page-section-right-side-drop-details-room-con p {
+    font-size: 16px;
+    margin: 0px;
+    font-family: var(---Font02);
+    color: var(---paraColor);
+}
+
+
+.venues-details-page-section-right-side-food {
+    /* border: 1px solid red; */
+}
+
+.venues-details-page-section-right-side-food-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px 20px 0px 20px;
+    border-top: 1px solid var(---PrimaryColor);
+}
+
+.venues-details-page-section-right-side-food-con h6 {
+    margin: 0px;
+    display: flex;
+    font-family: var(---Font02);
+    font-size: 15px;
+    color: var(---PrimaryColor);
+    /* text-transform: capitalize; */
+}
+
+.venues-details-page-section-right-side-food-con h6 p {
+    color: var(---paraColor);
+}
+
+.venues-details-page-section-right-side-food-con h6 span {
+    margin: 0px 10px;
+    color: var(---PrimaryColor);
+
+}
+
+.venues-details-page-section-right-side-food-con p {
+    text-transform: capitalize;
+    font-family: var(---Font01);
+    font-size: 15px;
+    font-weight: 800;
+}
+
+
+/* form  */
+
+.venues-details-page-section-form-con {
+    /* border: 1px solid red; */
+}
+
+.venues-details-page-section-call-whatsapp-con {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-bottom: 1px solid var(---SecondryColor);
+}
+
+div[class*=box] {
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.venues-details-page-section-call-whatsapp-con .btn {
+    /* line-height: 50px; */
+    /* height: 50px; */
+    text-align: center;
+    /* width: 200px; */
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+.venues-details-page-section-call-whatsapp-con .btn-one {
+    color: black;
+    transition: all 0.3s;
+    position: relative;
+    /* background-color: var(---SecondryColor); */
+}
+
+.venues-details-page-section-call-whatsapp-con .btn-one span {
+    transition: all 0.3s;
+    color: var(---PrimaryColor);
+
+}
+
+.venues-details-page-section-call-whatsapp-con .btn-one svg {
+    transition: all 0.3s;
+    font-size: 20px;
+    margin: 0px 5px 0px 0px;
+    color: var(---PrimaryColor);
+}
+
+.venues-details-page-section-call-whatsapp-con .btn-one::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: var(---PrimaryColor);
+    border-bottom-color: var(---PrimaryColor);
+    transform: scale(0.1, 1);
+    background: transparent;
+}
+
+.venues-details-page-section-call-whatsapp-con .btn-one:hover span {
+    letter-spacing: 2px;
+    color: black !important;
+}
+
+.venues-details-page-section-call-whatsapp-con .btn-one:hover::before {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.venues-details-page-section-call-whatsapp-con .btn-one::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: rgba(255, 143, 58, 0.1);
+}
+
+.venues-details-page-section-call-whatsapp-con .btn-one:hover::after {
+    opacity: 0;
+    transform: scale(0.1, 1);
+}
+
+.eQdQde {
+    position: relative;
+}
+
+.eQdQde::after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-left: 1px solid var(---PrimaryColor);
+    border-bottom: 1px solid var(---PrimaryColor);
+    background: rgb(255, 255, 255);
+    transform: rotate(-45deg);
+    top: -6px;
+    left: 113px;
+    transition: left 0.05s ease-in;
+}
+
+
+.venues-details-page-right-side-main-details-section-form{
+    margin: 30px 0px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+}
+
+
+.venues-details-page-right-side-main-details-section-form .ant-input-outlined:hover {
+    border-color: transparent !important;
+}
+
+.venues-details-page-right-side-main-details-section-form .ant-input-outlined{
+    
+}

@@ -1,0 +1,468 @@
+.navbar-upper-con {
+    /* border: 1px solid blue; */
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.navbar-upper-con h2 {
+    display: inline-block;
+    font-family: var(---font01);
+    font-size: 17px;
+    color: white;
+    margin: 0px;
+    background-color: black;
+    padding: 5px 18px;
+    animation: blink 1.5s infinite;
+}
+
+.Header-section-main-con {
+    /* border: 1px solid blue; */
+    background-color: black !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    /* padding: 22px 35px; */
+}
+
+.Header-Section-con {
+    /* border: 1px solid red; */
+}
+
+.Header-social-media-main-con {
+    /* border: 1px solid hotpink; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    margin: 0px 0px 0px 15px;
+}
+
+.Header-social-media-con {
+    /* border: 1px solid salmon; */
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Header-social-media-con a {
+    margin: 0px 10px 0px 0px;
+}
+
+.Header-social-media-con a svg {
+    color: white;
+    font-size: 20px;
+}
+
+
+/* Logo  */
+
+.Header-Logo-Main-Con {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header-Logo-Con {
+    /* border: 1px solid red; */
+    height: 45px;
+    width: 100%;
+}
+
+.Header-Logo-Con img {
+    height: 100%;
+    width: 100%;
+}
+
+/* user  */
+
+.Header-Icons-Main-con {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0px 20px 0px 0px;
+}
+
+.Header-Icons-con {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 40%; */
+}
+
+.Header-Profile-Icons-Con {
+    /* border: 1px solid green; */
+    margin: 15px;
+}
+
+.Header-Profile-Icons-Con button {
+    background-color: transparent;
+    border: none;
+
+}
+
+.Header-Profile-Icons-Con svg {
+    font-size: 20px;
+    color: white;
+
+}
+
+.Header-Profile-Icons-Con-search {
+    /* border: 1px solid green; */
+}
+
+.Header-Profile-Icons-Con-search button {
+    background-color: transparent;
+    border: none;
+
+}
+
+.Header-Profile-Icons-Con-search svg {
+    font-size: 20px;
+    color: white;
+
+}
+
+/* Main menu con  */
+
+/* .main-menu-main-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+} */
+
+.main-menu-con {
+    /* width: 40%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 0px 0px 30px;
+}
+
+.main-menu-con .dropdown .dropdown-menu{
+    background-color: black;
+}
+
+.main-menu-con .dropdown .dropdown-menu .dropdown-item{
+    /* padding: 0px;  */
+    width: min-content;
+}
+
+.main-menu-con .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: transparent;
+}
+
+.main-menu-con a {
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: var(---font01);
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.transparent-navbar {
+    background-color: transparent;
+}
+
+.black-navbar {
+    background-color: black;
+    /* Add other styles for black navbar */
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    /* Add other styles for sticky navbar */
+}
+
+:where(.css-dev-only-do-not-override-1okl62o).ant-badge .ant-badge-count {
+    background: black !important;
+}
+
+/* Add your existing styles */
+.Header-section-main-con {
+    transition: black 0.3s ease-in-out !important;
+}
+
+.sticky {
+    background-color: black !important;
+}
+
+.transparent-navbar {
+    background-color: transparent;
+    padding: 20px 40px 2 0px 40px;
+}
+
+.black-navbar {
+    background-color: black !important;
+}
+
+/* react navbar  */
+
+/* .navbar {
+    background-color: transparent !important;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.main-menu-main-con {
+    display: flex;
+    justify-content: center;
+    /* margin: 20px 0px 0px 0px; */
+    /* padding: 10px 0px; */
+}
+
+.main-menu-main-con .navbar-nav a {
+    color: white;
+    margin: 0px 20px;
+    font-family: var(---font01);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.responsive-navbar {
+    display: none;
+}
+
+
+@media(max-width:992px) {
+    .main-menu-con {
+        width: 80%;
+    }
+}
+
+
+/* responsive navbar con */
+
+.header-responsive-search-and-menu-btn {
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+}
+
+.header-responsive-menu-btn {
+    /* border: 1px solid red; */
+}
+
+.header-responsive-menu-btn svg {
+    color: white;
+    font-size: 25px;
+    margin: 0px 10px;
+}
+
+.header-responsive-search-btn {
+    /* border: 1px solid red; */
+}
+
+.header-responsive-search-btn svg {
+    color: white;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+.header-responsive-search-and-menu-btn-con {
+    display: none;
+}
+
+
+/* ////////////////////////////////////////////////////////// */
+
+.menu-side-bar-con {
+    /* border: 1px solid red; */
+}
+
+.ant-drawer .ant-drawer-body {
+    padding: 0px !important;
+    /* border: 1px solid red; */
+    background-color: black !important;
+}
+
+.menu-side-bar-menu-con {
+    border-bottom: 1px solid #2f2f2f;
+    padding: 0px 20px 10px 20px;
+}
+
+.menu-side-bar-menu {
+    margin: 14px 0px;
+}
+
+.menu-side-bar-menu a {
+    text-decoration: none;
+    color: white;
+    font-family: var(---font01);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* second */
+
+.menu-side-bar-menu-second-option {
+    padding: 0px 20px 10px 20px;
+}
+
+.menu-side-bar-menu-second {
+    margin: 14px 0px;
+}
+
+.menu-side-bar-menu-second a {
+    text-decoration: none;
+    color: #727272;
+    font-family: var(---font01);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.ant-drawer-content-wrapper {
+    width: 280px !important;
+}
+
+.menu-side-bar-menu-second-option-cosial-media {
+    border-top: 1px solid #2f2f2f;
+    padding: 20px 0px 20px 20px;
+    display: grid;
+}
+
+.menu-side-bar-menu-second-option-cosial-media a {
+    margin: 10px 10px 0px 0px;
+}
+
+.menu-side-bar-menu-second-option-cosial-media a svg {
+    color: #727272;
+    font-size: 25px;
+}
+
+
+.header-first-row{
+    /* border: 1px solid red; */
+    padding: 0px 20px;
+}
+
+.header-second-row{
+    /* border: 1px solid blue; */
+    padding: 15px 0px;
+    border-top: 1px solid gray;
+}
+
+.header-second-row-main-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-download-app-and-other{
+    /* border: 1px solid red; */
+}
+
+
+.header-download-app{
+    display: flex;
+    align-items: center;
+    color: white;
+    /* border: 1px solid blue; */
+    padding: 7px 10px;
+    border-radius: 20px;
+    background: #a59261;
+    margin: 0px 10px;
+}
+
+.header-download-app svg{
+font-size: 16px;
+}
+
+.header-download-app h3{
+    color: white !important;
+    font-size: 12px;
+    font-family: var(---font01);
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.header-download-app-and-other{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+/* ////////////////////////////////////////////////////////////// */
+@media(max-width:992px) {
+    .Header-social-media-con {
+        display: none;
+    }
+
+    .header-responsive-search-and-menu-btn-con {
+        display: block;
+    }
+
+    .Header-Profile-Icons-Con-search {
+        display: none;
+    }
+
+    .Header-Profile-Icons-Con svg {
+        font-size: 20px;
+        color: white;
+        margin: 0px 10px;
+    }
+
+    .main-menu-main-con {
+        display: none;
+    }
+
+    .Header-section-main-con {
+        padding: 10px 10px;
+    }
+
+    /* .menu-side-bar-menu a {
+        color: #727272;
+    } */
+}
+
+@media(max-width:576px) {
+    .Header-Profile-Icons-Con {
+        margin: 0px;
+    }
+
+    .Header-Logo-Con {
+        margin-top: 0px;
+    }
+
+    .Header-section-main-con {
+        padding: 15px 10px;
+    }
+}

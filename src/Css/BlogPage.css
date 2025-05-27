@@ -1,0 +1,43 @@
+/* banner section  */
+
+.about-us-page-main-section-1 {
+    /* border: 1px solid blue; */
+    height: 60vh;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url("../Images/banner/other-banner-image.jpg");
+    background-size: cover;
+}
+
+.about-us-page-section-1-banner {
+    /* border: 1px solid green; */
+    height: 100%;
+    position: relative;
+}
+
+.about-us-page-section-1-banner h1 {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    color: white;
+    font-family: var(---Font02);
+    text-transform: uppercase;
+    /* font-size: 26px; */
+}
+
+
+.blog-section-1{
+    padding: 10vh 0px;
+}
+
+.blog-section-1-details-main-con{
+    padding: 40px 0px;
+}
+
+
+@media(max-width:768px){
+
+.home-blog-section-1-head-con h3 {
+    font-size: 30px;
+    margin: 0px;
+}
+}

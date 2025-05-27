@@ -1,0 +1,117 @@
+.home-page-app-download-con {
+    /* border: 1px solid red; */
+    padding: 5vh 0px;
+}
+
+.home-page-app-download-main-con {
+    border: 1px solid var(---PrimaryColor);
+    padding: 50px 70px;
+    background: var(---SecondryColor);
+    border-radius: 40px;
+}
+
+.home-page-app-download-main-div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-app-main-details-con {
+    /* border: 1px solid blue; */
+    text-align: left;
+}
+
+.home-page-app-main-details-con h3 {
+    font-family: var(---Font01);
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0px 0px 30px 0px;
+    color: white;
+}
+
+.home-page-main-details-main-points-con {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 30px 0px
+}
+
+.home-page-main-details-main-points-icons-text-con {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* margin: 0px 0px 0px 20px; */
+}
+
+.home-page-main-details-main-points-icons-text-con svg {
+    font-size: 20px;
+    color: var(---PrimaryColor);
+}
+
+.home-page-app-download-main-details-inputs-con h5{
+    font-family: var(---Font02);
+    font-size: 16px;
+    margin: 0px 0px 0px 0px;
+    color: white;
+}
+
+.home-page-main-details-main-points-icons-text-con h4 {
+    margin: 0px 0px 0px 10px;
+    font-family: var(---Font02);
+    font-size: 15px;
+    color: white;
+}
+
+.home-page-app-download-inputs{
+    margin: 10px 0px 20px 0px;
+}
+
+.home-page-app-download-inputs .react-international-phone-input{
+    width: 50% !important;
+    height: 50px !important;
+}
+
+.home-page-app-download-inputs .react-international-phone-country-selector-button{
+    height: 50px;
+}
+
+.home-page-app-download-main-inputs-btn{
+    margin: 30px 0px 0px 0px;
+}
+
+.home-page-app-download-main-inputs-btn button{
+    border: none;
+    padding: 7px 16px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: var(---Font02);
+    color: white;
+    background: var(---PrimaryColor);
+    border-radius: 50px;
+}
+
+.home-page-app-download-details-image-main-con{
+
+}
+
+.home-page-app-download-details-image-con{
+    /* border: 1px solid black; */
+    height: 60vh;
+}
+
+.home-page-main-details-main-points-icons-text-con:not(:first-child) {
+    margin: 0px 0px 0px 20px;
+}
+
+@media(max-width:768px){
+    .home-page-main-details-main-points-con {
+        display: block;
+    }
+    /* .home-page-main-details-main-points-icons-text-con:not(:first-child) {
+        margin: 0px 0px 0px 0px;
+    } */
+.home-page-main-details-main-points-icons-text-con{
+    margin: 0px 0px 10px 0px !important;
+
+}
+}

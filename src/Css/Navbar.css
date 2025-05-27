@@ -107,7 +107,8 @@ color: black !important;
 
 .click-btn {
   display: flex;
-  width: 90px;
+  padding: 10px 20px;
+  /* width: 90px; */
   height: 35px;
   justify-content: center;
   align-items: center;

@@ -40,18 +40,18 @@ function CollapsibleExample() {
             <Nav.Link href="#deets">
               <div className=''>
                 <Link className='click-btn btn-style702'>
-              Login
+                list your business
                 </Link>
               </div>
             </Nav.Link>
-            <Nav.Link href="#deets">
+            {/* <Nav.Link href="#deets">
               <div className=''>
                 <Link className='click-btn btn-style702'>
               Register
                 </Link>
               </div>
             </Nav.Link>
-           
+            */}
           </Nav>
         </Navbar.Collapse>
       </Container>

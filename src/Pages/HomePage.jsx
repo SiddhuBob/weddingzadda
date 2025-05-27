@@ -10,6 +10,7 @@ import HomeBlog from "../Component/Home/HomeBlog";
 import Footer from "../Component/FooterCom/Footer";
 import axios from "axios";
 import Typewriter from 'typewriter-effect/dist/core';
+import NewHomeCategory from "../Component/NewHome/NewHomeCategory";
 const HomePage = () => {
 
     const [categoryList, setCategoryList] = useState([]);
@@ -139,7 +140,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
-
+<NewHomeCategory/>
             {/* <Authentic /> */}
             <HomeSearches />
             <HomeVenue />

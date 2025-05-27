@@ -1,0 +1,39 @@
+.new-home-section{
+    border: 1px solid red;
+    padding: 5vh 0px;
+}
+
+.new-home-category-card{
+    border: 1px solid red;
+}
+
+.new-home-category-section-image-main-con{
+    border: 1px solid red;
+}
+
+.new-home-category-section-image-con{
+    border: 1px solid blue;
+    height: 30vh;
+}
+
+.new-home-category-section-details-main-con{
+    border: 1px solid green;
+    margin: 0px 0px 0px 0px;
+}
+
+.new-home-category-section-details-main-con h4{
+    margin: 9px 0px;
+}
+
+.new-home-categpry-section-btn{
+
+}
+
+.new-home-categpry-section-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.new-home-categpry-section-btn a svg{
+
+}

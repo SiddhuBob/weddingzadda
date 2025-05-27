@@ -22,7 +22,6 @@ function CollapsibleExample() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="main-mid-item-con">
             <Nav.Link href="venues-page"><Link to="/">Home</Link></Nav.Link>
-            <Nav.Link href="venues-page"><Link to="">Venues</Link></Nav.Link>
             <Nav.Link href="vengor-page"><Link to="/vengor-page">Vendors</Link></Nav.Link>
             <NavDropdown title="Explore More" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="about-page"><Link to="/about-page">About Us</Link></NavDropdown.Item>
